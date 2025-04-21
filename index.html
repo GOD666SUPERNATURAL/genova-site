@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Genova AI</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f2f2f2; text-align: center; padding: 50px; }
+        #logo { width: 150px; margin-bottom: 20px; }
+        textarea { width: 80%; height: 100px; margin-bottom: 10px; padding: 10px; }
+        button { padding: 10px 20px; font-size: 16px; }
+        #response { margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <img src="genova_logo.png" id="logo" alt="Genova Synergy" />
+    <h1>Привет! Я — твой AI помощник.</h1>
+    <textarea id="question" placeholder="Напиши свой вопрос..."></textarea><br/>
+    <button onclick="ask()">Спросить</button>
+    <div id="response"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
